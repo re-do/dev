@@ -35,6 +35,7 @@
 		"lucide-react": "0.471.1",
 		"next": "15.1.4",
 		"postcss": "8.5.1",
+		"posthog-js": "^1.207.0",
 		"prettier-plugin-tailwindcss": "0.6.10",
 		"react": "19.0.0",
 		"react-dom": "19.0.0",

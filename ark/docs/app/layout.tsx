@@ -4,6 +4,7 @@ import { RootProvider } from "fumadocs-ui/provider"
 import { Raleway } from "next/font/google"
 import type { ReactNode } from "react"
 import { ReleaseBanner } from "../components/ReleaseBanner.tsx"
+import { CSPostHogProvider } from "./providers.tsx"
 
 const raleway = Raleway({
 	subsets: ["latin"]
@@ -24,8 +25,10 @@ export default ({ children }: { children: ReactNode }) => (
 					defaultTheme: "dark"
 				}}
 			>
-				<ReleaseBanner />
-				{children}
+				<CSPostHogProvider>
+					<ReleaseBanner />
+					{children}
+				</CSPostHogProvider>
 			</RootProvider>
 		</body>
 	</html>
