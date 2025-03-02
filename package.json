@@ -54,6 +54,7 @@
 		"@ark/attest-ts-min": "catalog:",
 		"@ark/attest-ts-next": "catalog:",
 		"@ark/fs": "workspace:*",
+		"@ark/jsonschema": "workspace:*",
 		"@ark/repo": "workspace:*",
 		"@ark/util": "workspace:*",
 		"@eslint/js": "9.19.0",
